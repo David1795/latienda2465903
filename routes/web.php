@@ -54,9 +54,9 @@ Route::get('paises', function(){
             "moneda" => "peso",
             "poblacion" => 51000000,
             "ciudades" => [
-                "medellin",
-                "barranquilla",
-                "medellin"
+                "Medellin",
+                "Barranquilla",
+                "Bogota"
             ]
         ],
         "peru" => [
@@ -81,12 +81,20 @@ Route::get('paises', function(){
         "Ecuador" =>[
             "capital" => "Quito",
             "moneda" => "Dolar",
-            "poblacion" => 17000000
+            "poblacion" => 17000000,
+            "ciudades"=>[
+                "Guayaquil"
+            ]
         ],
         "España" =>[
             "capital" => "Madrid",
             "moneda" => "Euro",
-            "poblacion" => 47500000
+            "poblacion" => 47500000,
+            "ciudades" =>[
+                "Cataluña",
+                "Ibiza"
+
+            ]
         ] 
 
     ];
